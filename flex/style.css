@@ -1,0 +1,48 @@
+#header{
+    background-color: rgba(0, 255, 255, 0.323);
+    width: 100%;
+    height: 14vh;
+    margin: 0px;
+}
+
+.body_area{
+    width: 100%;
+    height: 70vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#first{
+    background-color: rgba(243, 255, 17, 0.748);
+    width: 33.3%;
+    height: 70vh;
+    flex: 1;
+
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+#second{
+    background-color: rgba(17, 128, 255, 0.748);
+    width: 33.3%;
+    height: 70vh;
+    flex: 1;
+}
+
+#third{
+    background-color: rgba(160, 255, 17, 0.748);
+    width: 33.3%;
+    height: 70vh;
+    flex: 1;
+}
+
+#footer{
+    background-color: rgba(5, 21, 199, 0.473);
+    width: 100%;
+    height: 14vh;
+}
