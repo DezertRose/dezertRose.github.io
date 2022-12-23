@@ -25,7 +25,6 @@ body{
 }
 
 .button_menu{
-    position: fixed;
     bottom: 1vmin;
     left: 1vmin;
 }
