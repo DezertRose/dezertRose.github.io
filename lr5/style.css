@@ -1,0 +1,180 @@
+body{
+    background-color: rgba(195, 221, 255, 0.833);
+    position: relative;
+}
+
+.taskBody{
+    text-align: center;
+    margin-top: 3vh;
+    color: rgb(9, 6, 48);
+}
+
+.formField{
+    flex: 3;
+    text-align: right;
+    font-size: 1.3vw;
+    padding-top: 4vh;
+    background-color: rgba(69, 52, 197, 0.614);
+    border-right: none; 
+    padding-right: 0;
+}
+
+.formBody{
+    flex: 3;
+    background-color: rgba(69, 52, 197, 0.614);
+    border-left: none; 
+    padding-bottom: 5vw;
+    padding-right: 2vh;
+    padding-top: 2vh;
+}
+.formBody > input{
+    display: block;
+}
+
+.shownData{
+    flex: 7; 
+    margin-left: 6vw;
+    height: max-content;
+    width: max-content;
+    padding: 5vw;
+}
+
+.inputData{
+    font-weight:900;
+    font-size: 1.5vw;
+    text-align: center;
+    color: rgb(13, 21, 56);
+    height: 4vh;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 1.5vmin;
+    border: 3px solid rgba(176, 173, 173, 0);
+}
+
+.formData{
+    font-weight: lighter;
+    font-size: 1.5vw;
+    color: rgb(10, 12, 63);
+    display: inline;
+}
+
+.formField > h4{
+    height: 5vh;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 1.5vmin;
+    border: 3px solid rgba(176, 173, 173, 0);
+}
+
+.fieldData{
+    height: 5vh;
+    padding: 5px;
+    margin: 10px;
+    width: 20vw;
+    border: 3px solid silver;
+    border-radius: 1vmin;
+}
+
+#submitIn{
+    height: 7vh;
+    width: 20vw;
+    margin-left: -10vw;
+    margin-top: 5vh;
+}
+
+.taskOne{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#formHeaderOne{
+    flex:1;
+    text-align: left; 
+    color: rgb(22, 9, 68);
+    margin-left: 17vw;
+}
+
+.wrongData{
+    border: 3px solid rgb(211, 13, 13);
+    box-shadow: inset 3px 3px 4px rgb(23, 145, 145);
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 1px 1px 3px rgb(23, 145, 145);
+}
+
+#submitIn:hover{
+    box-shadow: inset 1px 1px 3px rgb(23, 145, 145);
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------
+                                            LR 5 part 2 
+ -------------------------------------------------------------------------------------------------------------------------*/
+
+.cell{
+    height: 9vh;
+    width: 6vw;
+    border-radius: 1vmin;
+}
+
+
+.cellNotEven{
+    background-color: rgba(111, 159, 248, 0.819);
+}
+
+.taskTwo{
+    align-items: center;
+    margin-bottom: 40vh;
+}
+
+#tempTable{
+    width: max-content;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 0.5vw;
+    background-color: rgb(166, 255, 255);
+}
+
+#colorPick{
+    height: 9vh;
+    width: 6vw;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#colorPick:focus{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    
+    height: 9vh;
+    width: 6vw;
+}
+#colorPick::-webkit-color-swatch{
+    border-radius: 0.5vw;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(72, 255, 255, 0.551);
+}
+#colorPick::-moz-color-swatch{
+    border-radius: 0.5vw;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(72, 255, 255, 0.551);
+}

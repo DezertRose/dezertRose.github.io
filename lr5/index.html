@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Lr 5">
+    <meta http-equiv="Content-type" content="text/html, charset=utf-8">
+    <title>Shnyrkova Daria IP96</title>
+
+    <link  rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class='body' id='body'>
+
+    <h1 class="taskBody">Task 1</h1>
+
+    <div class="taskOne">
+        <h2 id="formHeaderOne">Form</h2>
+    </div>
+
+    <div class="taskOne">
+
+        <div class="formField">
+            <h4>ФІО </h4>
+            <h4>Група </h4>
+            <h4>ID-карта</h4>
+            <h4>Дата народження </h4>
+            <h4>E-mail </h4>
+        </div>
+
+        <form class="formBody" onsubmit="showData(this);return false">
+
+            <input class="fieldData" type="text" id="in1" oninput="onInput()" onclick="onInput()" placeholder="Прізвище І.П.">
+            <input class="fieldData" type="text" id="in2" oninput="onInput()" onclick="onInput()" placeholder="ХХХХ">
+            <input class="fieldData" type="text" id="in3" oninput="onInput()" onclick="onInput()" placeholder="XX №ХХХXXX">
+            <input class="fieldData" type="date" id="in4" oninput="onInput()" onclick="onInput()">
+            <input class="fieldData" type="email" id="in5" oninput="onInput()" onclick="onInput()" placeholder="ХХХ@ХХХXX.ХХХ">
+            
+            <input class="fieldData" type="submit" id="submitIn">
+        </form>
+
+        <div class="shownData">
+
+            <h4 class="inputData">ФІО <p class="formData" id="row1">_</p></h4>
+            <h4 class="inputData">Група <p class="formData" id="row2">_</p></h4>
+            <h4 class="inputData">ID-карта <p class="formData" id="row3">_</p></h4>
+            <h4 class="inputData">Дата народження <p class="formData" id="row4">_</p></h4>
+            <h4 class="inputData">E-mail <p class="formData" id="row5">_</p></h4>
+        </div>
+
+    </div>
+
+    <h1 class="taskBody">Task 2</h1>
+
+    <div class="taskTwo" id="taskTwo">
+        <table id="tempTable"></table>
+    </div>
+
+    <script src="script_part_2.js"></script>
+</body>
+</html>
