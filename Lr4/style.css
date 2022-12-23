@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(117, 232, 255, 0.356);
+    position: relative;
+}
+
+.btn{
+    background-color: rgb(63, 98, 224);
+    color: rgb(229, 226, 255);
+    height: 5vh;
+    width: 5vw;
+}
+
+#img_holder{
+    width: max-content;
+    height: max-content;
+}
+
+.new_img{
+    display: block;
+    width: 46vw;
+    height: auto;
+    margin-top: 0.5vw;
+    margin-bottom: 0vw;
+    text-align: center;
+}
+
+.button_menu{
+    position: fixed;
+    bottom: 1vmin;
+    left: 1vmin;
+}
+
+.first:hover, .second:hover{
+    cursor: pointer;
+}
+
+.first{
+    background-color: rgb(22, 21, 75);
+    color: rgb(187, 228, 255);
+    height: 5vh;
+}
+
+.second{
+    background-color: rgb(187, 228, 255);
+    color: rgb(22, 21, 75);
+    height: 5vh;
+}
+
